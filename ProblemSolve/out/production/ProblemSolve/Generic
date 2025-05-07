@@ -1,0 +1,20 @@
+import java.util.*;
+
+
+public class Generic {
+
+    public static void main(String[]args)
+    {
+        List<String> list = new ArrayList<>();//Generic Formet
+        list.add("Shishir Mondal");
+
+        List anotherList = new ArrayList();
+        anotherList.add("Shishir Mondal");
+        anotherList.add(123);
+
+        System.out.println(list);
+        System.out.println(anotherList);
+
+
+    }
+}
